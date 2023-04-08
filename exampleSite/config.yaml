@@ -120,7 +120,7 @@ params:
     intro: ""
     title: "Vince Yordanov"
     subtitle: "Data Engineer"
-    content: "An ambitious young professional, passionate about creating data-driven solutions that have a net positive impact on the real-world."
+    content: "An ambitious young professional, passionate about creating data-driven solutions that have a net positive impact on the real-world. I have a background in mathematics and machine learning, and I have a particular interest in development of AI-driven applications, especially in the finance realm. I am currently working as a data engineer at IKEA in Malmö, Sweden."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -130,7 +130,7 @@ params:
       name: "Resume"
       url: "https://easyupload.io/pgxp4y"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -147,11 +147,15 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a data engineer with a background in mathematics and machine learning, and I have a particular interest in development of data-driven applications. I am currently working as a data engineer at IKEA in Malmö, Sweden. 
+      I am 26 years old, born in Sofia, Bulgaria and raised in Ottawa, Canada. Since 2021, I have been living in Malmö, Sweden. I have a passion for 
+      big data and creating software, especially when it comes to the stock market and finance. My start-up vyAnalytics focuses on delivering 
+      robust and scalable AI-driven trading algorithms as well as NLP models that analyze rapidly changing financial sentiment, in the hopes of 
+      helping retail investors make informed decisions about their investments. I also work for IKEA, where I am helping the company become the 
+      industry leader in the digitalization of home-furnishing.
 
     skills:
       enable: true
-      title: "Here are the tools and languages for which I have proficiency:"
+      title: "Here are the programming languages I use in my work on a daily-basis:"
       items:
         - "R"
         - "Python"
@@ -169,11 +173,25 @@ params:
         company: "IKEA"
         companyUrl: "https://ikea.com"
         date: "April 2022 - present"
+        content: |-
+          Responsibilities
+            - Build ETL pipelines to handle the processing of hundreds of millions of data records  coming daily from the IKEA web & app in over 50 markets worldwide.
+            - Implement CI/CD system using GitHub Actions and Terraform to facilitate efficient product lifecycle methodology, introduce semantic versioning and reduce risk of major pipeline failures.
+            - Enhance computational performance of existing SQL queries through modularization of code, reducing BigQuery analytics cost by more than 30%.
+            - Help design an in-house data collection system to replace Google Analytics system & uphold IKEAs GDPR compliance.
+            - Write and publish reports to help make key make-or-buy decision for data-profiling and data quality monitoring tools.
+          
         
       - job: "Data & Machine Learning Engineer"
         company: "vyAnalytics"
         companyUrl: "https://vyanalytics.net"
         date: "June 2021 - present"
+        content: |-
+          Responsibilities
+            - Build ETL pipeline to facilitate processing of large volumes of real time bid/ask/trade NASDAQ stock market data.
+            - Build and deploy robust VertexAI pipelines to generate prediction of stock price directions.
+            - Integrate NLP models into AI pipeline to automate financial sentiment analysis of various NASDAQ company earnings reports.
+            - Create and deploy AI-driven [web application](https://chicago.shinyapps.io/CoronaTrackApp) aimed to provide hospitals in the USA with real-time risk assessment of ICU overcapacity during the Covid-19 pandemic.
         featuredLink:
           enable: true
           url: "https://chicago.shinyapps.io/CoronaTrackApp"
@@ -186,8 +204,12 @@ params:
         company: "Alstom Group - Canada"
         companyUrl: "https://www.alstom.com/"
         date: "Jan 2020 - Sep 2020"
-        content: "I worked as a Data Analyst for Alstom, helping the city of Ottawa with the roll-out of its new Light Rail Transit system."
-
+        content: |-
+          Responsibilities
+            - Automate the process of collecting data on software errors, mechanical problems, and system failures for trains in Ottawas Light Rail Transit system.
+            - Wrote SQL scripts to extract business insights and key metrics on train performance.
+            - Implement ARIMA time-series models to forecast mechanical failures for all of Ottawas LRT trains.
+            - Build and maintain dashboards to visualize key metrics and present KPIs to city officials and key stakeholders of Alstom Group in Canada.
   # Education
   education:
     enable: true
@@ -197,27 +219,34 @@ params:
       - title: "MSc. Mathematics & Statistics"
         school:
           name: "McMaster University"
-          url: "https://example.org"
+          url: "https://mcmaster.ca"
         date: "Sep 2020 - May 2021"
         GPA: "3.4 out of 4.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Academic Research
+            - My graduate research focused on studying and proving the superiority of intrinsic conditional autoregressive (ICAR) Poisson models over
+              regular Generalized Linear Mixed Models when fitting spatially correlated data. Specifically, my investigation shows that for 
+              geospatial homicide data (output) & socioeconomic indicators in Chicagos neighbourhoods (input), the CAR model outperforms non-spatial 
+              GLMMs on almost every metric. A secondary conclusion that can be drawn from the paper is that Machine Learning can have tremendous 
+              multifaceted benefits in helping law enforcemenet tackle violent crime. 
+              
+          Highlights
+            -	Successful completion of a one-year competitive MSc. Program 
+            -	Entry and departmental scholarships based on academic excellence.   
+            -	Completion of independent research project, including successful defense in front of peers and faculty. 
+            -	Over 200 hours of hosting lectures and tutorials for statistics courses with over 300 students.  
+
       - title: "B.Math Honours"
         school:
           name: "Carleton University"
-          url: "https://example.org"
+          url: "https://carleton.ca"
         date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+        GPA: "10.0 / 12.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Member of Carletons Mathematics Society. 
+            - Active member and founder of the Bulgarian Students in Carleton Society, helping raise money and host events.
 
 
   # Achievements
