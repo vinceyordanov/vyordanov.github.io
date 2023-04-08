@@ -1,4 +1,4 @@
-baseURL: "https://vinceyordanov.github.io"
+baseURL: "https://vinceyordanov.netlify.app"
 languageCode: "en-us"
 title: "Professional Profile - Vince Yordanov"
 theme: hugo-profile
