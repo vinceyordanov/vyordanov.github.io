@@ -121,7 +121,7 @@ params:
     title: "Vince Yordanov"
     subtitle: "Data Engineer"
     content: "An ambitious young professional, passionate about creating data-driven solutions that have a net positive impact on the real-world. I have a background in mathematics and machine learning, and I have a particular interest in development of AI-driven applications, especially in the finance realm. I am currently working as a data engineer at IKEA in Malmö, Sweden."
-    image: /images/hero.svg
+    image: /images/imgg.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -137,15 +137,13 @@ params:
           url: https://github.com/vinceyordanov
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/vinceyordanov
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/about-me.png"
     content: |-
       I am 26 years old, born in Sofia, Bulgaria and raised in Ottawa, Canada. Since 2021, I have been living in Malmö, Sweden. I have a passion for 
       big data and creating software, especially when it comes to the stock market and finance. My start-up vyAnalytics focuses on delivering 
