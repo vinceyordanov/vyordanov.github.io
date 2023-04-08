@@ -144,6 +144,10 @@ params:
     enable: true
     title: "About Me"
     image: "/images/about-me.png"
+    roundImage: false
+    bottomImage: 
+      enable: true
+    
     content: |-
       I am 26 years old, born in Sofia, Bulgaria and raised in Ottawa, Canada. Since 2021, I have been living in Malmö, Sweden. I have a passion for 
       big data and creating software, especially when it comes to the stock market and finance. My start-up vyAnalytics focuses on delivering 
