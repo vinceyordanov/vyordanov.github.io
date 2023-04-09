@@ -181,7 +181,7 @@ params:
   # Experience
   experience:
     enable: true
-    title: "My Professional Working Experience"
+    title: "My Experience"
     items:
       - job: "Data Engineer"
         company: "IKEA"
