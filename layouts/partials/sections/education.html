@@ -2,15 +2,13 @@
 <section id="education" class="py-5">
     <div class="container">
         <div class="px-0 px-md-5 px-lg-5">
-            <div class="row justify-content-left px-5">
+            <div class="row justify-content-left px-3">
                 {{ $indexMenu := .Site.Params.education.index }}
-                <h3 class="text-left">{{ .Site.Params.education.title | default "Education" }}</h3>
-                <br>
                 {{ range $index, $element := .Site.Params.education.items }}
-                <div class="col-12 px-5">
+                <div class="col-12 px-3">
                     <div class="row row align-items-left justify-content-left m-1 mb-4">
                         {{ if $indexMenu }}
-                        <div class="col-md-1 text-center me-2 p-0 d-none d-md-block">
+                        <div class="col-md-1 text-left me-2 p-0 d-none d-md-block">
                             <div class="py-2">
                                 <span class="index shadow-lg">
                                     {{ add $index 1 }}
@@ -18,7 +16,8 @@
                             </div>
                         </div>
                         {{ end }}
-
+                        <h3 class="text-left">{{ .Site.Params.education.title | default "Education" }}</h3>
+                        <br>
                         <div class="col-md-9">
                             <div class="card">
                                 <div class="card-body">
