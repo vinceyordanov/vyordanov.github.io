@@ -6,7 +6,7 @@
                 <div class="col-sm-12 col-md-8 col-lg-8 py-5">
                     <h3 class="text-left">{{ .Site.Params.experience.title | default "Experience" }}</h3>
                     <br>
-                    <div class="experience-container px-1 pt-2">
+                    <div class="experience-container px-5 pt-2">
                         <ul class="nav nav-pills mb-3 bg-transparent primary-font" id="pills-tab" role="tablist">
                             {{ range $index, $element := .Site.Params.experience.items }}
                             {{ if (eq $index 0) }}
