@@ -156,7 +156,7 @@ params:
     enable: true
     title: "About Me"
     image: "/images/me.png"
-    roundImage: false
+    roundImage: true
     bottomImage: 
       enable: true
     
