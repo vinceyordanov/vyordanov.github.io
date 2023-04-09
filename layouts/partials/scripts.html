@@ -49,7 +49,7 @@
 </script>
 {{- end }}
 
-{{ if not (.Site.Params.navbar.disableSearch | default false) }}
+{{ if not (.Site.Params.navbar.disableSearch | default true) }}
     <script src="{{ .Site.Params.staticPath }}/js/search.js"></script>
 {{ end }}
 
