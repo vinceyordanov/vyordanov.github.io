@@ -11,6 +11,7 @@
             {{ end }}
             <div class="col-sm-12 col-md-12 col-lg-8 content">
                 <h3 class="text-left bg-transparent">{{ .Site.Params.about.title }}</h3>
+                <br>
                 {{ .Site.Params.about.content | markdownify }}
 
                 {{ if .Site.Params.about.skills.enable }}
