@@ -229,7 +229,6 @@ params:
     enable: true
     index: false
     title: "Education"
-    index: true
     items:
       - title: "MSc. Mathematics & Statistics"
         school:
