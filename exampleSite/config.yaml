@@ -227,6 +227,7 @@ params:
   # Education
   education:
     enable: true
+    index: true
     title: "Education"
     items:
       - job: "MSc. Mathematics & Statistics"
