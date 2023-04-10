@@ -224,16 +224,18 @@ params:
             - Wrote SQL scripts to extract business insights and key metrics on train performance.
             - Implement ARIMA time-series models to forecast mechanical failures for all of Ottawas LRT trains.
             - Build and maintain dashboards to visualize key metrics and present KPIs to city officials and key stakeholders of Alstom Group in Canada.
-  # Education
+   # Education
   education:
     enable: true
-    index: true
     title: "Education"
+    index: true
     items:
-      - job: "MSc. Mathematics & Statistics"
-        company: "McMaster University, Hamilton, ON, Canada"
-        companyUrl: "https://mcmaster.ca"
+      - title: "MSc. Mathematics & Statistics"
+        school:
+          name: "McMaster University"
+          url: "https://mcmaster.ca"
         date: "Sep 2020 - May 2021"
+        GPA: "3.4 out of 4.0"
         content: |-
           Highlights
             -	Successful completion of a one-year competitive MSc. Program 
@@ -250,10 +252,13 @@ params:
               multifaceted benefits in helping law enforcemenet tackle violent crime. 
               
           
-      - job: "Honours Bachelor of Mathematics"
-        company: "Carleton University, Ottawa, ON, Canada"
-        companyUrl: "https://carleton.ca"
-        date: "Sep 2016 - Jan 2020"
+
+      - title: "B.Math Honours"
+        school:
+          name: "Carleton University"
+          url: "https://carleton.ca"
+        date: "2009 - 2013"
+        GPA: "10.0 / 12.0"
         content: |-
 
           Highlights
@@ -261,6 +266,7 @@ params:
             - Founder of the Bulgarian Students in Carleton Society, helping raise money and hosting events.
             - Entry and departmental scholarships based on academic excellence.
             - Data Science intern for City of Ottawa (worked on city master transportation plan)
+            
             
 
 
