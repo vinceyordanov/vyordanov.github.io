@@ -229,12 +229,12 @@ params:
   education:
     enable: true
     title: "Education"
-    items:
+    items1:
       - job1: "McMaster University, Hamilton, ON, Canada"
         company1: "MSc. Mathematics & Statistics"
         companyUrl1: "https://mcmaster.ca"
         date1: "Sep 2020 - May 2021"
-        content: |-
+        content1: |-
           Highlights
             -	Successful completion of a one-year competitive MSc. Program 
             -	Entry and departmental scholarships based on academic excellence.   
@@ -254,7 +254,7 @@ params:
         company1: "Honours Bachelor of Mathematics"
         companyUrl1: "https://carleton.ca"
         date1: "Sep 2016 - Jan 2020"
-        content: |-
+        content1: |-
           Highlights
             - Active member of Carletons Mathematics Society. 
             - Founder of the Bulgarian Students in Carleton Society, helping raise money and hosting events.

@@ -9,7 +9,7 @@
                     <br>
                     <div class="education-container px-5 pt-2">
                         <ul class="nav nav-pills mb-3 bg-transparent primary-font" id="pills-tab" role="tablist">
-                            {{ range $index, $element := .Site.Params.education.items }}
+                            {{ range $index, $element := .Site.Params.education.items1 }}
                             {{ if (eq $index 0) }}
                             <li class="nav-item px-1 bg-transparent" role="presentation">
                                 <div 
@@ -42,7 +42,7 @@
                             {{ end }}
                         </ul>
                         <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
-                            {{ range $index, $element := .Site.Params.education.items }}
+                            {{ range $index, $element := .Site.Params.education.items1 }}
                             {{ if (eq $index 0) }}
                             <div 
                                 class="tab-pane fade show active bg-transparent" 
@@ -79,7 +79,7 @@
                                     {{ end }}
                                 </div>
 
-                                {{ .content | markdownify}}
+                                {{ .content1 | markdownify}}
                             </div>
                             {{ else }}
                             <div 
@@ -119,7 +119,7 @@
                                 </div>
 
                                 <div class="pt-2 education-content">
-                                    {{ .content | markdownify}}
+                                    {{ .content1 | markdownify}}
                                 </div>
                             </div>
                             {{ end }}
