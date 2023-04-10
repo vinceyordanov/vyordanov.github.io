@@ -75,7 +75,7 @@ header .navbar.animate {
     min-height: auto;
     line-height: 1.5rem;
     max-width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 #hero .content.animate {
     animation: fade-left 1s ease-out;
@@ -298,7 +298,7 @@ header .navbar.animate {
 }
 
 #experience .nav-item .nav-link {
-    color: var(--text-color) !important;
+    color: #007bff !important;
     border-bottom: 2px solid transparent; 
     border-radius: 0%;
     transition: none;
@@ -430,7 +430,7 @@ header .navbar.animate {
 }
 
 #education .nav-item .nav-link.active {
-    color: #007bff !important;
+    color: var(--text-color) !important;
     border-bottom: 2px solid var(--primary-color); 
     opacity: 0.8;
 }
