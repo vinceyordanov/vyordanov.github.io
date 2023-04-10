@@ -19,7 +19,7 @@
                                     data-bs-toggle="pill"
                                     id='{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}-tab'
                                     data-bs-target='#pills-{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}'
-                                    aria-controls='{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}' 
+                                    aria-controls='{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}' 
                                 >
                                     {{ .company1 }}
                                 </div>
@@ -32,8 +32,8 @@
                                     role="tab" 
                                     data-bs-toggle="pill"
                                     id='{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}-tab'
-                                    data-bs-target='#pills-{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}' 
-                                    aria-controls='{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}'
+                                    data-bs-target='#pills-{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}' 
+                                    aria-controls='{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}'
                                 >
                                     {{ .company1 }}
                                 </div>
