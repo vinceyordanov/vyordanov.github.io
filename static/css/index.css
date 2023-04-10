@@ -306,7 +306,7 @@ header .navbar.animate {
 }
 
 #experience .nav-item .nav-link.active {
-    color: var(--text-color) !important;
+    color: var(--primary-color) !important;
     border-bottom: 2px solid var(--primary-color); 
     opacity: 0.8;
 }
