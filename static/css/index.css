@@ -517,7 +517,7 @@ header .navbar.animate {
 }
 
 #achievements h3 {
-    color: var(--text-secondary-color) !important;
+    color: #007bff !important;
 }
 
 #achievements .card {
@@ -549,7 +549,8 @@ header .navbar.animate {
 
 #achievements .card-text {
     background-color: var(--secondary-color) !important;
-    color: #007bff !important;
+    color: var(--text-secondary-color) !important;
+    
 }
 
 /* contact */
