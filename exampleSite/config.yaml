@@ -83,7 +83,7 @@ params:
 
   # color preference
   color:
-    backgroundColor: "#ffffff"
+  #  backgroundColor: "#ffffff"
   #   textColor:
   #   secondaryTextColor:
      
