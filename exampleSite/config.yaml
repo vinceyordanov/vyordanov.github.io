@@ -231,7 +231,7 @@ params:
     title: "Education"
     items:
       - job: "McMaster University"
-        company: "MSc. Mathematics & Statistics"
+        company: "Master of Science - Statistics"
         companyUrl: "https://mcmaster.ca"
         date: "Sep 2020 - May 2021"
         content: |-
