@@ -230,7 +230,7 @@ params:
     enable: true
     title: "Education"
     items1:
-      - job1: "McMaster University, Hamilton, ON, Canada"
+      - job1: "McMaster University"
         company1: "MSc. Mathematics & Statistics"
         companyUrl1: "https://mcmaster.ca"
         date1: "Sep 2020 - May 2021"
@@ -250,7 +250,7 @@ params:
               multifaceted benefits in helping law enforcemenet tackle violent crime. 
               
           
-      - job1: "Carleton University, Ottawa, ON, Canada"
+      - job1: "Carleton University"
         company1: "Honours Bachelor of Mathematics"
         companyUrl1: "https://carleton.ca"
         date1: "Sep 2016 - Jan 2020"
