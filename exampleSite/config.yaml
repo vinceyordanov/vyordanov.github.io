@@ -230,10 +230,10 @@ params:
     enable: true
     title: "Education"
     items1:
-      - job1: "McMaster University"
-        company1: "MSc. Mathematics & Statistics"
-        companyUrl1: "https://mcmaster.ca"
-        date1: "Sep 2020 - May 2021"
+      - job: "McMaster University"
+        company: "MSc. Mathematics & Statistics"
+        companyUrl: "https://mcmaster.ca"
+        date: "Sep 2020 - May 2021"
         content1: |-
           Highlights
             -	Successful completion of a one-year competitive MSc. Program 

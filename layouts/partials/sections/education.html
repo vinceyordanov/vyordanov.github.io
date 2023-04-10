@@ -9,7 +9,7 @@
                     <br>
                     <div class="education-container px-5 pt-2">
                         <ul class="nav nav-pills mb-3 bg-transparent primary-font" id="pills-tab1" role="tablist">
-                            {{ range $index, $element := .Site.Params.education.items1 }}
+                            {{ range $index, $element := .Site.Params.education.items }}
                             {{ if (eq $index 0) }}
                             <li class="nav-item px-1 bg-transparent" role="presentation">
                                 <div 
@@ -17,11 +17,11 @@
                                     aria-selected="true" 
                                     role="tab" 
                                     data-bs-toggle="pill"
-                                    id='{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}-tab'
-                                    data-bs-target='#pills-{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}'
-                                    aria-controls='{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}' 
+                                    id='{{ replace .company " " "-" }}-{{ replace .date " " "-" }}-tab'
+                                    data-bs-target='#pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}'
+                                    aria-controls='{{ replace .company " " "-" }}-{{ replace .date " " "-" }}' 
                                 >
-                                    {{ .company1 }}
+                                    {{ .company }}
                                 </div>
                             </li>
                             {{ else }}
@@ -31,7 +31,7 @@
                                     aria-selected="true" 
                                     role="tab" 
                                     data-bs-toggle="pill"
-                                    id='{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}-tab'
+                                    id='{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}-tab'
                                     data-bs-target='#pills-{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}' 
                                     aria-controls='{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}'
                                 >
@@ -42,27 +42,27 @@
                             {{ end }}
                         </ul>
                         <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent1">
-                            {{ range $index, $element := .Site.Params.education.items1 }}
+                            {{ range $index, $element := .Site.Params.education.items }}
                             {{ if (eq $index 0) }}
                             <div 
                                 class="tab-pane fade show active bg-transparent" 
                                 role="tabpanel"
-                                id='pills-{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}'
-                                aria-labelledby='pills-{{ replace .company1 " " "-" }}-{{ replace .date1 " " "-" }}-tab'
+                                id='pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}'
+                                aria-labelledby='pills-{{ replace .company " " "-" }}-{{ replace .date " " "-" }}-tab'
                             >
                                 <div>
-                                    <span class="h4">{{ .company1 }}</span>
+                                    <span class="h4">{{ .company }}</span>
                                     <small>-</small>
-                                    <a href="{{ .companyUrl1 }}" target="_blank">{{ .job1 }}</a>
+                                    <a href="{{ .companyUrl }}" target="_blank">{{ .job }}</a>
                                     <div class="pb-1">
-                                        <small>{{ .date1 }}</small>
+                                        <small>{{ .date }}</small>
                                         {{ if .info.enable | default true }}
                                         <span class="p-2">
                                             <span 
                                                 style="cursor: pointer;" 
                                                 data-bs-toggle="tooltip" 
                                                 data-bs-placement="top" 
-                                                data-bs-original-title={{ .info.content | default (print "Working as a " .job1 " at " .company1 ) }}
+                                                data-bs-original-title={{ .info.content | default (print "Working as a " .job " at " .company1 ) }}
                                             >
                                                 <i class="fas fa-info-circle fa-xs"></i>
                                             </span>
@@ -79,7 +79,7 @@
                                     {{ end }}
                                 </div>
 
-                                {{ .content1 | markdownify}}
+                                {{ .content | markdownify}}
                             </div>
                             {{ else }}
                             <div 
