@@ -82,10 +82,11 @@ params:
     textAlign: left # default: left
 
   # color preference
-  # color:
+  color:
+    backgroundColor: "#ffffff"
   #   textColor:
   #   secondaryTextColor:
-  #   backgroundColor:
+     
   #   secondaryBackgroundColor:
   #   primaryColor:
   #   secondaryColor:
@@ -123,7 +124,7 @@ params:
     content: "An ambitious young professional, passionate about creating data-driven solutions that have a net positive impact on the real-world. I have a background in mathematics and machine learning, and I have a particular interest in development of AI-driven applications, especially in the finance realm. I am currently working as a data engineer at IKEA in Malmö, Sweden."
     image: /images/imgg.png
     bottomImage:
-      enable: false
+      enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
