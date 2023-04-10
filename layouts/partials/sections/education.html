@@ -21,7 +21,7 @@
                                     data-bs-target='#pills-{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}'
                                     aria-controls='{{ replace .job1 " " "-" }}-{{ replace .date1 " " "-" }}' 
                                 >
-                                    {{ .company1 }}
+                                    {{ .job1 }}
                                 </div>
                             </li>
                             {{ else }}
@@ -118,7 +118,7 @@
                                     {{ end }}
                                 </div>
 
-                                <div class="pt-2 education-content">
+                                <div class="pt-2">
                                     {{ .content1 | markdownify}}
                                 </div>
                             </div>
