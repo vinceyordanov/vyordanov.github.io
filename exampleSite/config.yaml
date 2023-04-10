@@ -227,8 +227,7 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
-    index: false
+    title: "Education"
     items:
       - job: "MSc. Mathematics & Statistics"
         company: "McMaster University, Hamilton, ON, Canada"
