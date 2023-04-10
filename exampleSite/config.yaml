@@ -229,7 +229,7 @@ params:
   education:
     enable: true
     title: "Education"
-    items1:
+    items:
       - job: "McMaster University"
         company: "MSc. Mathematics & Statistics"
         companyUrl: "https://mcmaster.ca"
