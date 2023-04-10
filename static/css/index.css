@@ -422,7 +422,7 @@ header .navbar.animate {
 }
 
 #education .nav-item .nav-link {
-    color: var(--text-color) !important;
+    color: #007bff !important;
     border-bottom: 2px solid transparent; 
     border-radius: 0%;
     transition: none;
@@ -430,7 +430,7 @@ header .navbar.animate {
 }
 
 #education .nav-item .nav-link.active {
-    color: var(--text-color) !important;
+    color: #007bff !important;
     border-bottom: 2px solid var(--primary-color); 
     opacity: 0.8;
 }
@@ -517,7 +517,7 @@ header .navbar.animate {
 }
 
 #achievements h3 {
-    color: #007bff !important;
+    color: var(--text-color) !important;
 }
 
 #achievements .card {
@@ -534,7 +534,7 @@ header .navbar.animate {
 }
 
 #achievements .card h5 {
-    color: var(--text-color) !important;
+    color: #007bff !important;
     opacity: 0.9;
 }
 
