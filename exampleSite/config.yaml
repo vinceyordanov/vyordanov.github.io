@@ -230,10 +230,10 @@ params:
     enable: true
     title: "Education"
     items:
-      - job: "McMaster University, Hamilton, ON, Canada"
-        company: "MSc. Mathematics & Statistics"
-        companyUrl: "https://mcmaster.ca"
-        date: "Sep 2020 - May 2021"
+      - job1: "McMaster University, Hamilton, ON, Canada"
+        company1: "MSc. Mathematics & Statistics"
+        companyUrl1: "https://mcmaster.ca"
+        date1: "Sep 2020 - May 2021"
         content: |-
           Highlights
             -	Successful completion of a one-year competitive MSc. Program 
@@ -250,10 +250,10 @@ params:
               multifaceted benefits in helping law enforcemenet tackle violent crime. 
               
           
-      - job: "Carleton University, Ottawa, ON, Canada"
-        company: "Honours Bachelor of Mathematics"
-        companyUrl: "https://carleton.ca"
-        date: "Sep 2016 - Jan 2020"
+      - job1: "Carleton University, Ottawa, ON, Canada"
+        company1: "Honours Bachelor of Mathematics"
+        companyUrl1: "https://carleton.ca"
+        date1: "Sep 2016 - Jan 2020"
         content: |-
           Highlights
             - Active member of Carletons Mathematics Society. 
