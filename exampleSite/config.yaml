@@ -227,7 +227,7 @@ params:
    # Education
   education:
     enable: true
-    # index: false
+    index: false
     title: "Education"
     index: true
     items:
