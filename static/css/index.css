@@ -73,9 +73,12 @@ header .navbar.animate {
 
 #hero {
     min-height: auto;
-    line-height: 1.5rem;
+    margin: 20px 0px 0px;
+    color: #666;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.3rem;
     max-width: 100%;
-    font-size: 1.1rem;
 }
 #hero .content.animate {
     animation: fade-left 1s ease-out;
@@ -94,27 +97,33 @@ header .navbar.animate {
 }
 
 #hero h2 {
-    font-size: clamp(40px, 8vw, 60px);
+    font-size: 36px;
     color: var(--text-secondary-color) !important;
+    font-family: "Roboto", sans-serif;
+    opacity: 0.9;
 }
 
 #hero h3 {
-    font-size: clamp(40px, 8vw, 42px);
+    padding-top: 0rem;
+    font-size: 36px;
     color: var(--primary-color) !important; 
-    opacity: 0.5;
+    font-family: "Roboto", sans-serif;
 }
 
 #hero p {
     margin: 20px 0px 0px;
+    color: #666;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.3rem;
     max-width: 640px;
-    opacity: 0.8;
 }
 
 #hero .image img {
     box-shadow:0px 8px 56px rgba(15, 80, 100, 0.16);
     padding: 0;
     border: 3px solid var(--secondary-color);
-    border-radius: 1rem;
+    border-radius: 50%;
 }
 
 #hero .image.animate img {
@@ -299,6 +308,7 @@ header .navbar.animate {
 
 #experience .nav-item .nav-link {
     color: var(--text-color) !important;
+    font-family: "Roboto", sans-serif;
     border-bottom: 2px solid transparent; 
     border-radius: 0%;
     transition: none;
@@ -307,6 +317,7 @@ header .navbar.animate {
 
 #experience .nav-item .nav-link.active {
     color: var(--primary-color) !important;
+    font-family: "Roboto", sans-serif;
     border-bottom: 2px solid var(--primary-color); 
     opacity: 0.8;
 }
@@ -324,6 +335,7 @@ header .navbar.animate {
     opacity: 0.9;
     display: inline-block;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
     color: var(--primary-color) !important;
 }
 
@@ -336,6 +348,7 @@ header .navbar.animate {
     background-color: var(--primary-color);
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     opacity: 0.5;
+    font-family: "Roboto", sans-serif;
 }
 
 #experience a:hover::after, #experience a:focus::after, #experience a:active::after {
@@ -346,17 +359,20 @@ header .navbar.animate {
     overflow: hidden;
     list-style: none;
     margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 #experience .experience-container .tab-content .tab-pane ul li {
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 #experience .experience-container .tab-content .tab-pane ul li::before {
     content: "▹";
     color: var(--primary-color);
+    font-family: "Roboto", sans-serif;
     position: absolute;
     left: 0px;
 }
@@ -382,6 +398,7 @@ header .navbar.animate {
 }
 
 #experience .experience-container .tab-content .tab-pane .featuredLink a.btn:hover {
+    font-family: "Roboto", sans-serif;
     color: var(--text-color) !important;
     opacity: 0.7;
 }
@@ -389,6 +406,7 @@ header .navbar.animate {
 /* Education */
 
 #education h3 {
+    font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
 }
 
@@ -410,6 +428,7 @@ header .navbar.animate {
 }
 
 #education .education-container .tab-content > .tab-pane p {
+    font-family: "Roboto", sans-serif;
     padding: 1% 0;
     margin: 0;
 }
@@ -422,6 +441,7 @@ header .navbar.animate {
 }
 
 #education .nav-item .nav-link {
+    font-family: "Roboto", sans-serif;
     color: var(--text-color);
     border-bottom: 2px solid transparent; 
     border-radius: 0%;
@@ -430,6 +450,7 @@ header .navbar.animate {
 }
 
 #education .nav-item .nav-link.active {
+    font-family: "Roboto", sans-serif;
     color: var(--text-color) !important;
     border-bottom: 2px solid var(--primary-color); 
     opacity: 0.8;
@@ -448,6 +469,7 @@ header .navbar.animate {
     opacity: 0.9;
     display: inline-block;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
     color: var(--primary-color) !important;
 }
 
@@ -473,12 +495,14 @@ header .navbar.animate {
 }
 
 #education .education-container .tab-content .tab-pane ul li {
+    font-family: "Roboto", sans-serif;
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
 }
 
 #education .education-container .tab-content .tab-pane ul li::before {
+    font-family: "Roboto", sans-serif;
     content: "▹";
     color: var(--primary-color);
     position: absolute;
@@ -486,6 +510,7 @@ header .navbar.animate {
 }
 
 #education .education-container .tab-content .tab-pane .featuredLink a::after {
+    font-family: "Roboto", sans-serif;
     display: block;
     width: auto;
     height: auto;
@@ -496,6 +521,7 @@ header .navbar.animate {
 }
 
 #education .education-container .tab-content .tab-pane .featuredLink a.btn {
+    font-family: "Roboto", sans-serif;
     border: 1px solid var(--primary-color);
     border-radius: .75rem;
     transition: none;
@@ -507,6 +533,7 @@ header .navbar.animate {
 
 #education .education-container .tab-content .tab-pane .featuredLink a.btn:hover {
     color: var(--text-color) !important;
+    font-family: "Roboto", sans-serif;
     opacity: 0.7;
 }
 
@@ -514,9 +541,11 @@ header .navbar.animate {
 
 #achievements a {
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 
 #achievements h3 {
+    font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
 }
 
@@ -527,6 +556,7 @@ header .navbar.animate {
     box-shadow: 0 2px 4px 0 rgba(80, 79, 79, 0.307);
     /* transform: translate3d(0, 0, 0); */
     transition: box-shadow .2s linear,opacity .2s linear;
+    font-family: "Roboto", sans-serif;
 }
 
 #achievements a.card {
@@ -534,6 +564,7 @@ header .navbar.animate {
 }
 
 #achievements .card h5 {
+    font-family: "Roboto", sans-serif;
     color: #007bff !important;
     opacity: 0.9;
 }
@@ -548,6 +579,9 @@ header .navbar.animate {
 }
 
 #achievements .card-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.3rem;
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
     
@@ -556,6 +590,7 @@ header .navbar.animate {
 /* contact */
 
 #contact h3 {
+    font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
 }
 
@@ -566,6 +601,7 @@ header .navbar.animate {
     border-color: var(--primary-color) !important;
     background-color: var(--secondary-color) !important;
     color: var(--text-color) !important;
+    font-family: "Roboto", sans-serif;
 }
 
 #contact .btn:hover {
