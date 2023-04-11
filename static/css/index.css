@@ -290,6 +290,7 @@ header .navbar.animate {
 
 #experience .tab-pane > * {
     opacity: 0.9;
+    background-color: var(--background-color) !important;
 }
 
 #experience .tab-pane small {
@@ -299,17 +300,20 @@ header .navbar.animate {
 #experience .tab-pane ul {
     padding-top: 1%;
     padding-bottom: 1%;
+    background-color: var(--background-color) !important;
 }
 
 #experience .experience-container .tab-content > .tab-pane p {
     padding: 1% 0;
     margin: 0;
+    background-color: var(--background-color) !important;
 }
 
 #experience .experience-container {
     background-color: var(--background-color) !important;
     border-radius: 0rem;
     box-shadow: 1px 2px 4px 3px rgba(80, 79, 79, 0.307);
+    padding-left: 3rem;
 
 }
 
@@ -389,7 +393,7 @@ header .navbar.animate {
     width: auto;
     height: auto;
     bottom: 0em;
-    background-color: transparent;
+    background-color: var(--background-color) !important;
     transition: none;
     opacity: 1;
 }
