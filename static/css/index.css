@@ -117,8 +117,9 @@ header .navbar.animate {
     margin: 20px 0px 0px;
     color: #666;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.3rem;
+    max-width: 640px;
 }
 
 #hero .image img {
@@ -560,9 +561,8 @@ header .navbar.animate {
     cursor: context-menu;
     background-color: var(--background-color) !important;
     border-radius: 0rem;
-    border-color: #fff;
+    box-shadow: 1px 2px 4px 3px rgba(80, 79, 79, 0.307);
     font-family: "Roboto", sans-serif;
-    box-shadow: 0 0 0 0 white; 
     /* transform: translate3d(0, 0, 0); */
     /* transition: box-shadow .2s linear,opacity .2s linear; */
 }
@@ -574,7 +574,7 @@ header .navbar.animate {
 #achievements .card h5 {
     font-family: "Roboto", sans-serif;
     color: #007bff !important;
-    opacity: 0.9;
+    opacity: 0.8;
     padding-left: 0rem;
     padding-top: 0rem;
 }
@@ -595,7 +595,7 @@ header .navbar.animate {
     padding-left: 0rem;
     background-color: var(--background-color) !important;
     color: var(--text-secondary-color) !important;
-    
+    opacity: 0.8;
 }
 
 /* contact */
