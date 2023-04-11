@@ -153,12 +153,15 @@ params:
     items:
       - title: Machine Learning
         content: I can build, train and deploy robust ML models with application in various fields.
-        #url: https://example.com
       - title: Data Engineering
         content: I build complex ETL pipelines in order to facilitate high-volume batch and stream data processing.
       - title: Data Analytics
         content: I create insightful analytics dashboards to highlight important aspects in a business model.
-
+      - title: Cloud Infrastructure
+        content: I am well-versed in the management and provisioning of cloud-based / servereless infrastructure, and regularly deploy applications to Google's cloud platform. 
+      - title: Programming
+        content: I write code that has impact and generates revenue. Some of the languages I work with on a daily basis include R, Python, SQL and JavaScript.
+ 
   # About
   about:
     enable: true

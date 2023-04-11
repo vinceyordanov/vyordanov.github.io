@@ -76,7 +76,7 @@ header .navbar.animate {
     margin: 0;
     color: #666;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.3rem;
     background-color: var(--secondary-color);
     padding-top: 10rem;
@@ -552,7 +552,7 @@ header .navbar.animate {
 #achievements h3 {
     font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
-    padding-top: 5rem;
+    padding-top: 6rem;
     padding-bottom: 0rem;
 }
 
