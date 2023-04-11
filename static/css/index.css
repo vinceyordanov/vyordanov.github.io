@@ -78,7 +78,6 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.3rem;
-    max-width: 100%;
 }
 #hero .content.animate {
     animation: fade-left 1s ease-out;
@@ -280,7 +279,7 @@ header .navbar.animate {
 
 #experience * {
     background-color: transparent !important;
-    max-width: 100%;
+    
 }
 
 #experience .tab-pane > * {
@@ -414,7 +413,7 @@ header .navbar.animate {
 
 #education * {
     background-color: transparent !important;
-    max-width: 100%;
+    
 }
 
 #education .tab-pane > * {
@@ -437,7 +436,7 @@ header .navbar.animate {
 }
 
 #education .education-container {
-    background-color: var(--secondary-color) !important;
+    background-color: var(--background-color) !important;
     border-radius: 0rem;
     box-shadow: 1px 2px 4px 3px rgba(80, 79, 79, 0.307);
 
@@ -550,6 +549,7 @@ header .navbar.animate {
 #achievements h3 {
     font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
+    padding-bottom: 0rem;
 }
 
 #achievements .card {
@@ -571,6 +571,8 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     color: #007bff !important;
     opacity: 0.9;
+    padding-left: 0rem;
+    padding-top: 0rem;
 }
 
 #achievements .card:hover {
@@ -586,6 +588,7 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.3rem;
+    padding-left: 0rem;
     background-color: var(--background-color) !important;
     color: var(--text-secondary-color) !important;
     
