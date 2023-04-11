@@ -280,6 +280,7 @@ header .navbar.animate {
 
 #experience * {
     background-color: transparent !important;
+    max-width: 100%;
 }
 
 #experience .tab-pane > * {
@@ -301,7 +302,7 @@ header .navbar.animate {
 }
 
 #experience .experience-container {
-    background-color: var(--secondary-color) !important;
+    background-color: var(--background-color) !important;
     border-radius: 0rem;
     box-shadow: 1px 2px 4px 3px rgba(80, 79, 79, 0.307);
 
@@ -413,6 +414,7 @@ header .navbar.animate {
 
 #education * {
     background-color: transparent !important;
+    max-width: 100%;
 }
 
 #education .tab-pane > * {
@@ -552,7 +554,7 @@ header .navbar.animate {
 
 #achievements .card {
     cursor: context-menu;
-    background-color: var(--secondary-color) !important;
+    background-color: var(--background-color) !important;
     border-radius: 0rem;
     border-color: #fff;
     font-family: "Roboto", sans-serif;
@@ -584,7 +586,7 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.3rem;
-    background-color: var(--secondary-color) !important;
+    background-color: var(--background-color) !important;
     color: var(--text-secondary-color) !important;
     
 }
