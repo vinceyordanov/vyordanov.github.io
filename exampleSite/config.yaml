@@ -124,8 +124,8 @@ params:
     subtitle: "Data Engineer"
     content: |- 
       I'm an ambitious young professional, passionate about creating data-driven solutions that have a net positive impact on 
-      businesses and on our world. I have a background in mathematics and machine learning, and I have a particular interest in 
-      the development of data & AI-driven applications, especially in the realms of finance and medicine. I am currently working as 
+      businesses. I have a background in mathematics and machine learning, and I take particular interest in 
+      the development of data & AI-intensive applications, especially in the realms of finance. I am currently working as 
       a data engineer at IKEA in Malmö, Sweden, where I am part of a team helping develop the company's data tracking & analyzing 
       capabilities, and helping IKEA become the industry leader in the digitalization of home-furnishing along the way. Please have a look at my credentials and some projects that I have worked on below. 
     image: /images/imgg.png
@@ -152,13 +152,13 @@ params:
     title: "My Areas of Expertise"
     items:
       - title: Machine Learning
-        content: I can build, train and deploy robust ML models with application in various fields.
+        content: I build, train and deploy robust ML models with application in various fields.
       - title: Data Engineering
         content: I build complex ETL pipelines in order to facilitate high-volume batch and stream data processing.
       - title: Data Analytics
         content: I create insightful analytics dashboards to highlight important aspects in a business model.
       - title: Cloud Infrastructure
-        content: I am well-versed in the management and provisioning of cloud-based / servereless infrastructure, and regularly deploy applications to Google's cloud platform. 
+        content: I manage and provision cloud-based / servereless infrastructure, and regularly deploy applications to Google's cloud platform. 
       - title: Programming
         content: I write code that has impact and generates revenue. Some of the languages I work with on a daily basis include R, Python, SQL and JavaScript.
  
@@ -221,7 +221,7 @@ params:
           enable: true
           url: "https://chicago.shinyapps.io/CoronaTrackApp"
         info:
-          enable: true
+          enable: false
           content: I founded an AI startup called vyAnalytics, and while progress is slow, I am still actively working on development of new products.
 
 
@@ -251,7 +251,7 @@ params:
             -	Attended meetings, taking part in discussions with city officials and presenting work.  
             -	Played a key role in organizing the work with my team members.  
         info:
-          enable: true
+          enable: false
           content: As a data science intern for the City of Ottawa, I was involved in working on an ongoing project for Ottawas Master Transportation Plan with a team of 3 other students. The end goal was to provide city officials with accurate estimates and predictions regarding commuting in the city via bicycles – in hopes of helping them build infrastructure that caters to cyclists and promotes eco-friendly transportation
 
       - job: "Junior Analyst"
