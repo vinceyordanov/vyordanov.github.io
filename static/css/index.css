@@ -285,16 +285,19 @@ header .navbar.animate {
 }
 
 #experience * {
-    background-color: var(--secondary-color) !important;
+    background-color: var(--background-color) !important;
 }
 
 #experience .tab-pane > * {
     opacity: 0.9;
     background-color: var(--background-color) !important;
+
 }
 
 #experience .tab-pane small {
     opacity: 0.8;
+    background-color: var(--background-color) !important;
+
 }
 
 #experience .tab-pane ul {
