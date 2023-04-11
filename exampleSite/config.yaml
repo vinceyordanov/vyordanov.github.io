@@ -124,10 +124,10 @@ params:
     subtitle: "Data Engineer"
     content: |- 
       I'm an ambitious young professional, passionate about creating data-driven solutions that have a net positive impact on 
-      businesses and the world. I have a background in mathematics and machine learning, and I have a particular interest in 
-      development of data & AI-driven applications, especially in the realms of finance and medicine. I am currently working as 
-      a data engineer at IKEA in Malmö, Sweden, where I am helping the company become the industry leader in the digitalization 
-      of home-furnishing. Please have a look at my credentials and some projects that I have worked on below. 
+      businesses and on our world. I have a background in mathematics and machine learning, and I have a particular interest in 
+      the development of data & AI-driven applications, especially in the realms of finance and medicine. I am currently working as 
+      a data engineer at IKEA in Malmö, Sweden, where I am part of a team helping develop the company's data tracking & analyzing 
+      capabilities, and helping IKEA become the industry leader in the digitalization of home-furnishing along the way. Please have a look at my credentials and some projects that I have worked on below. 
     image: /images/imgg.png
     bottomImage:
       enable: true
