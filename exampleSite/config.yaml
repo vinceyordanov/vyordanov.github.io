@@ -105,7 +105,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Professional Profile & Work Portfolio" # Brand name for the brand | default is the title variable
+    brandName: "Professional Profile & Portfolio" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     menus:
@@ -227,11 +227,44 @@ params:
         companyUrl: "https://www.alstom.com/"
         date: "Jan 2020 - Sep 2020"
         content: |-
-          Responsibilitie
+          Responsibilities
             - Automate the process of collecting data on software errors, mechanical problems, and system failures for trains in Ottawas Light Rail Transit system.
             - Wrote SQL scripts to extract business insights and key metrics on train performance.
             - Implement ARIMA time-series models to forecast mechanical failures for all of Ottawas LRT trains.
             - Build and maintain dashboards to visualize key metrics and present KPIs to city officials and key stakeholders of Alstom Group in Canada.
+
+      - job: "Data Science Intern"
+        company: "City of Ottawa"
+        companyUrl: "https://www.ottawa.ca/"
+        date: "May 2019 - Sep 2019"
+        content: |-
+          Responsibilities
+            -	Wrote code to sort through and categorize a massive dataset containing 7 years worth of transportation data.  
+            -	Implemented a k-nearest neighbors algorithm to interpolate and fill in missing data entries.
+            -	Usied moving average and signal extraction techniques to filter out noise and make data more informative. 
+            -	Generated visualizations for 7 time series corresponding to data for the years 2011-2018  
+            -	Forecasted future levels of bicycle transportation via an ARIMA model, chosen after careful consideration.  
+            -	Analyzed cyclical nature and seasonal trends of biker data using frequency-domain analyses.   
+            -	Attended meetings, taking part in discussions with city officials and presenting work.  
+            -	Played a key role in organizing the work with my team members.  
+        info:
+          enable: true
+          content: As a data science intern for the City of Ottawa, I was involved in working on an ongoing project for Ottawas Master Transportation Plan with a team of 3 other students. The end goal was to provide city officials with accurate estimates and predictions regarding commuting in the city via bicycles – in hopes of helping them build infrastructure that caters to cyclists and promotes eco-friendly transportation
+
+      - job: "Junior Analyst"
+        company: "Federal Government of Canada - Shared Services Middleware"
+        companyUrl: "https://www.canada.ca/en/shared-services.html/"
+        date: "May 2017 - Sep 2017"
+        content: |-
+          Responsibilities
+            - Monitored a cloud fax server used by Bank of Canada for secure transactions.
+            - Used Apache and WebSphere to maintain, update and troubleshoot technical issues for WebServers.
+            - Debugged and inspected java code associated with Webservers used by the Federal Government.
+            - Addressed support tickets opened by other government employees.
+            - Wrote simple scripts to create over 50 online ports for easier access to online servers by other team-members
+            - Wrote documentation for future student interns and employees.
+            - Gave monthly presentations at team meetings and attended student networking events.
+
   
   # Education
   education:
