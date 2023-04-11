@@ -34,12 +34,12 @@
                 {{ end }}
             </a>
 
-            {{ if not (.Site.Params.navbar.disableSearch | default false) }}
+           <!-- navbar toggler {{ if not (.Site.Params.navbar.disableSearch | default true) }}
                 <div>
                     <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='{{ .Site.Params.navbar.searchPlaceholder | default "Ctrl + k to Search..."}}'
                         aria-label="Search" oninput="searchOnChange(event)">
                 </div>
-            {{ end }}
+            {{ end }} -->
 
             <!-- navbar toggler -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -52,13 +52,13 @@
             <!-- navbar content -->
             <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
                 <ul class="navbar-nav {{ .Site.Params.navbar.align | default "ms-auto"}} text-center">
-                    {{ if not (.Site.Params.navbar.disableSearch | default false) }}
+                    <!--{{ if not (.Site.Params.navbar.disableSearch | default false) }}
                         <li class="nav-item navbar-text d-block d-md-none">
                             <div class="nav-link">
                                 <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='{{ .Site.Params.navbar.searchPlaceholder | default "Ctrl + k to Search..."}}' aria-label="Search" oninput="searchOnChange(event)">
                             </div>
                         </li>
-                    {{ end }}
+                    {{ end }}-->
 
                     {{ if and (.Site.Params.about.enable | default false) (not (.Site.Params.navbar.menus.disableAbout | default false)) }}
                     <li class="nav-item navbar-text">
@@ -67,6 +67,17 @@
                         </a>
                     </li>
                     {{ end }}
+
+
+                    {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#achievements"
+                            aria-label="achievements">
+                            {{ .Site.Params.achievements.title | default "Areas of Expertise" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
 
                     {{ if and (.Site.Params.achievements.enable | default false) (not (.Site.Params.navbar.menus.disableAchievements | default false)) }}
                     <li class="nav-item navbar-text">
@@ -95,14 +106,14 @@
                     </li>
                     {{ end }}
 
-                    {{ if and (.Site.Params.projects.enable | default false) (not (.Site.Params.navbar.menus.disableProjects | default false)) }}
+                    <!--{{ if and (.Site.Params.projects.enable | default false) (not (.Site.Params.navbar.menus.disableProjects | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#projects"
                             aria-label="projects">
                             {{ .Site.Params.projects.title | default "Projects" }}
                         </a>
                     </li>
-                    {{ end }}
+                    {{ end }}-->
 
                     {{ if and (.Site.Params.contact.enable | default false) (not (.Site.Params.navbar.menus.disableContact | default false)) }}
                     <li class="nav-item navbar-text">
