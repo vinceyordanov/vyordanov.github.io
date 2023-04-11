@@ -252,7 +252,7 @@ params:
           content: As a data science intern for the City of Ottawa, I was involved in working on an ongoing project for Ottawas Master Transportation Plan with a team of 3 other students. The end goal was to provide city officials with accurate estimates and predictions regarding commuting in the city via bicycles – in hopes of helping them build infrastructure that caters to cyclists and promotes eco-friendly transportation
 
       - job: "Junior Analyst"
-        company: "Federal Government of Canada - Shared Services Middleware"
+        company: "Shared Services Canada"
         companyUrl: "https://www.canada.ca/en/shared-services.html/"
         date: "May 2017 - Sep 2017"
         content: |-
@@ -272,7 +272,7 @@ params:
     title: "Education"
     items:
       - job: "McMaster University"
-        company: "Master of Science - Statistics"
+        company: "MSc. Mathematics & Statistics"
         companyUrl: "https://mcmaster.ca"
         date: "Sep 2020 - May 2021"
         content: |-
