@@ -278,12 +278,14 @@ header .navbar.animate {
 /* experience */
 
 #experience h3 {
+    font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
+    opacity: 0.9;
+    padding-top: 6rem;
 }
 
 #experience * {
     background-color: transparent !important;
-    padding-top: 6rem;
 }
 
 #experience .tab-pane > * {
@@ -413,6 +415,8 @@ header .navbar.animate {
 #education h3 {
     font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
+    opacity: 0.9;
+    padding-top: 6rem;
 }
 
 #education * {
