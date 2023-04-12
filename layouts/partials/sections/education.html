@@ -72,8 +72,8 @@
 
                                     {{ if .featuredLink.enable | default false }}
                                     <div class="py-2 featuredLink" title="Research Paper" target="_blank">
-                                        <a class="p-2 px-4 btn btn-outline-primary btn-sm" href={{ .featuredLink.url | default "#" }} target="_blank">
-                                            {{ .featuredLink.name | default "Featured Link" }} 
+                                        <a class="p-2 px-4 btn btn-outline-primary btn-sm" title="Research Paper" href={{ .featuredLink.url | default "#" }} target="_blank">
+                                            {{ .featuredLink.name | default "Research Paper" }} 
                                         </a>
                                     </div>
                                     {{ end }}

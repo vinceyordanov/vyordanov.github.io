@@ -135,7 +135,7 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
+      name: "CV"
       url: "https://online.flippingbook.com/view/11333224/"
       #url: "https://easyupload.io/pgxp4y"
       download: false
@@ -221,6 +221,7 @@ params:
             - Create and deploy AI-driven [web application](https://chicago.shinyapps.io/CoronaTrackApp) aimed to provide hospitals in the USA with real-time risk assessment of ICU overcapacity during the Covid-19 pandemic.
         featuredLink:
           enable: true
+          name: "Web App Demo"
           url: "https://chicago.shinyapps.io/CoronaTrackApp"
         info:
           enable: false
@@ -299,6 +300,7 @@ params:
               multifaceted benefits in helping law enforcemenet tackle violent crime. [Read it here.](https://online.flippingbook.com/view/695367507/)
         featuredLink:
           enable: true
+          name: "Research Paper"
           url: "https://online.flippingbook.com/view/695367507/"      
           
       - job1: "Carleton University"
