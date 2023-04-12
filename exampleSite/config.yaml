@@ -221,7 +221,7 @@ params:
             - Create and deploy AI-driven [web application](https://chicago.shinyapps.io/CoronaTrackApp) aimed to provide hospitals in the USA with real-time risk assessment of ICU overcapacity during the Covid-19 pandemic.
         featuredLink:
           enable: true
-          url: "[See Web App Demo](https://chicago.shinyapps.io/CoronaTrackApp)"
+          url: "https://chicago.shinyapps.io/CoronaTrackApp"
         info:
           enable: false
           content: I founded an AI startup called vyAnalytics, and while progress is slow, I am still actively working on development of new products.
@@ -296,10 +296,10 @@ params:
               regular Generalized Linear Mixed Models when fitting spatially correlated data. Specifically, my investigation shows that for 
               geospatial homicide data (output) & socioeconomic indicators in Chicagos neighbourhoods (input), the CAR model outperforms non-spatial 
               GLMMs on almost every metric. A secondary conclusion that can be drawn from the paper is that Machine Learning can have tremendous 
-              multifaceted benefits in helping law enforcemenet tackle violent crime. [Read my research paper.](https://online.flippingbook.com/view/695367507/)
+              multifaceted benefits in helping law enforcemenet tackle violent crime. [Read it here.](https://online.flippingbook.com/view/695367507/)
         featuredLink:
           enable: true
-          url: "[Read my research paper](https://online.flippingbook.com/view/695367507/)"      
+          url: "https://online.flippingbook.com/view/695367507/"      
           
       - job1: "Carleton University"
         company1: "Honours Bachelor of Mathematics"
