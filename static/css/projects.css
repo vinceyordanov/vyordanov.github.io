@@ -56,8 +56,8 @@
 
 #projects .card-img-top {
     transition: transform 0.3s;
-    height: 500px;
-    width: 500px;
+    height: 125px;
+    width: 125px;
 }
 
 /*#projects .float-end .btn {
