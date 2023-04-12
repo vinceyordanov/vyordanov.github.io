@@ -8,7 +8,6 @@
 
 #projects a {
     text-decoration: none;
-    color: var(--text-color) !important;
     font-family: "Roboto", sans-serif;
     opacity: 0.9;
 }
@@ -48,6 +47,21 @@
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
+
+#projects .card .card-body .card-title {
+    font-family: "Roboto", sans-serif;
+    color: var(--text-secondary-color) !important;
+    opacity: 0.9;
+}
+
+#projects .card .card-body .card-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 1.3rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
 
 /*#projects .card:hover .card-img-top {
     transform: scale(1.2);
