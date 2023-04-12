@@ -3,6 +3,7 @@
 #projects h3 {
     color: var(--text-secondary-color) !important;
     font-family: "Roboto", sans-serif;
+    padding-top: 4rem;
 }
 
 #projects a {
@@ -19,7 +20,7 @@
 }
 
 #projects .card {
-    background-color: var(--secondary-color) !important;
+    background-color: var(--background-color) !important;
     box-shadow: 0px 2px 4px 0px rgba(80, 79, 79, 0.307);
     min-height: 400px;
     overflow: hidden;
