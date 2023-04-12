@@ -340,7 +340,7 @@ params:
 
       - title: Portfolio Analytics
         content: A web application built to provide actionable insights to retail investors, and help them make informed decisions about their portfolios.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/profile2.png
         featured:
           name: Demo
           link: https://chicago.shinyapps.io/testdboard
