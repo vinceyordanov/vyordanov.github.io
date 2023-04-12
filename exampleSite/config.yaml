@@ -340,7 +340,7 @@ params:
 
       - title: Portfolio Analytics
         content: A web application built to provide actionable insights to retail investors, and help them make informed decisions about their portfolios.
-        image: /images/projects/profile2.jpg
+        image: /images/projects/converter.jpg
         featured:
           name: Demo
           link: https://chicago.shinyapps.io/testdboard
@@ -352,20 +352,20 @@ params:
           - icon: fab fa-github
             url: https://github.com/vinceyordanov
 
-      - title: Chicago Crime Statistics
-        content: A dashboard designed to track and provide crime forecasts for the city of Chicago in real-time.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "R"
-          - "JavaScript"
-          - "ShinyApps"
-          - "BigQuery"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/vinceyordanov
+      # - title: Chicago Crime Statistics
+      #   content: A dashboard designed to track and provide crime forecasts for the city of Chicago in real-time.
+      #   image: /images/projects/profile2.jpg
+      #   featured:
+      #     name: Demo
+      #     link: https://hugo-profile-2.netlify.app
+      #   badges:
+      #     - "R"
+      #     - "JavaScript"
+      #     - "ShinyApps"
+      #     - "BigQuery"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/vinceyordanov
 
   #Contact
   contact:

@@ -17,6 +17,7 @@
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
     margin: 0 1%;
+    border-color: var(--primary-color)
 }
 
 #projects .card {
