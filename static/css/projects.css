@@ -56,7 +56,7 @@
 
 #projects .card-img-top {
     transition: transform 0.3s;
-    height: 100%;
+    height: 250px;
     width: 100%;
 }
 
