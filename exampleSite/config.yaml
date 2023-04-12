@@ -335,8 +335,6 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/vinceyordanov
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Portfolio Analytics
         content: A web application built to provide actionable insights to retail investors, and help them make informed decisions about their portfolios.

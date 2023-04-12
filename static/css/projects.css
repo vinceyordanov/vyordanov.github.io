@@ -16,7 +16,6 @@
     background-color: var(--background-color) !important;
     color: var(--text-color) !important;
     margin: 0 1%;
-    border-color: #007bff;
 }
 
 #projects .card {
@@ -75,12 +74,12 @@
     width: 100%;
 }
 
-/*#projects .float-end .btn {
+#projects .float-end .btn {
     transition: none;
     border-radius: .5rem !important;
     border-color: var(--primary-color) !important;
-}*/
+}
 
-/*#projects .float-end .btn:focus {
+#projects .float-end .btn:focus {
     box-shadow: none !important;
-}*/
+}
