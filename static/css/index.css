@@ -596,8 +596,7 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     color: #007bff !important;
     opacity: 0.8;
-    padding-left: 0rem;
-    padding-top: 0rem;
+
 }
 
 #achievements .card:hover {
@@ -611,12 +610,12 @@ header .navbar.animate {
 
 #achievements .card-text {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.3rem;
-    padding-left: 0rem;
+    padding-top: 1rem;
     background-color: var(--background-color) !important;
     color: var(--text-secondary-color) !important;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* contact */
