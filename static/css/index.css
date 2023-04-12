@@ -612,7 +612,6 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     line-height: 1.3rem;
-    padding-top: 1rem;
     background-color: var(--background-color) !important;
     color: var(--text-secondary-color) !important;
     opacity: 0.9;
