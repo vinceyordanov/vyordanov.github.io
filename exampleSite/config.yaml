@@ -123,10 +123,10 @@ params:
     title: "Vince Yordanov"
     subtitle: "Data Engineer"
     content: |- 
-      I'm a young professional, passionate about creating data-driven solutions that have a net positive impact on 
-      businesses and on our world. I have a background in mathematics and machine learning, and I have a particular interest in 
-      the development of data & AI-driven applications, especially in the realms of finance and medicine. I am currently working as 
-      a data engineer at IKEA in Malmö, Sweden, where I am part of a team helping develop the company's data tracking & analytics 
+      I'm a young professional, passionate about creating data-driven solutions that have a positive impact on 
+      the performance of businesses. I have a background in mathematics and machine learning, and I take particular interest in 
+      the development of data & AI-intensive applications, especially in the realm of finance. I am currently working as 
+      a data engineer at IKEA in Malmö, Sweden, where I am part of a team that's developing the company's data tracking & analytics 
       capabilities. Please have a look at my credentials and some projects that I have worked on below. 
 
     image: /images/imgg.png
@@ -165,7 +165,7 @@ params:
  
   # About
   about:
-    enable: true
+    enable: false
     title: "About Me"
     image: "/images/me.png"
     roundImage: true
@@ -206,7 +206,8 @@ params:
             - Enhance computational performance of existing SQL queries through modularization of code, reducing BigQuery analytics cost by more than 30%.
             - Help design an in-house data collection system to replace Google Analytics system & uphold IKEAs GDPR compliance.
             - Write and publish reports to help make key make-or-buy decision for data-profiling and data quality monitoring tools.
-          
+        info:
+          enable: false  
         
       - job: "Data & Machine Learning Engineer"
         company: "vyAnalytics"
@@ -236,6 +237,8 @@ params:
             - Wrote SQL scripts to extract business insights and key metrics on train performance.
             - Implement ARIMA time-series models to forecast mechanical failures for all of Ottawas LRT trains.
             - Build and maintain dashboards to visualize key metrics and present KPIs to city officials and key stakeholders of Alstom Group in Canada.
+        info:
+          enable: false
 
       - job: "Data Science Intern"
         company: "City of Ottawa"
@@ -268,7 +271,8 @@ params:
             - Wrote simple scripts to create over 50 online ports for easier access to online servers by other team-members
             - Wrote documentation for future student interns and employees.
             - Gave monthly presentations at team meetings and attended student networking events.
-
+        info:
+          enable: false
   
   # Education
   education:
@@ -292,7 +296,7 @@ params:
               regular Generalized Linear Mixed Models when fitting spatially correlated data. Specifically, my investigation shows that for 
               geospatial homicide data (output) & socioeconomic indicators in Chicagos neighbourhoods (input), the CAR model outperforms non-spatial 
               GLMMs on almost every metric. A secondary conclusion that can be drawn from the paper is that Machine Learning can have tremendous 
-              multifaceted benefits in helping law enforcemenet tackle violent crime. 
+              multifaceted benefits in helping law enforcemenet tackle violent crime. [Read my research paper.](https://online.flippingbook.com/view/695367507/)
               
           
       - job1: "Carleton University"
