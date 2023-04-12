@@ -328,10 +328,10 @@ params:
         featured:
           name: Demo
           link: "https://chicago.shinyapps.io/CoronaTrackApp"
-        badges:
-          - "R"
-          - "JavaScript"
-          - "ShinyApps"
+        # badges:
+        #   - "R"
+        #   - "JavaScript"
+        #   - "ShinyApps"
         links:
           - icon: fab fa-github
             url: https://github.com/vinceyordanov
@@ -344,10 +344,10 @@ params:
         featured:
           name: Demo
           link: https://chicago.shinyapps.io/testdboard
-        badges:
-          - "R"
-          - "JavaScript"
-          - "ShinyApps"
+        # badges:
+        #   - "R"
+        #   - "JavaScript"
+        #   - "ShinyApps"
         links:
           - icon: fab fa-github
             url: https://github.com/vinceyordanov

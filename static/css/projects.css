@@ -52,6 +52,7 @@
     font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
     opacity: 0.9;
+    padding-top: 1rem;
 }
 
 #projects .card .card-body .card-text {
