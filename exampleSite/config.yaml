@@ -324,7 +324,7 @@ params:
     items:
       - title: Hospital ICU Overcapacity Risk
         content: A web application designed to help hospitals have real-time risk assessment of ICU bed shortages during Covid-19 patient spikes.
-        image: /images/projects/profile.png
+        image: /images/projects/profile2.jpg
         featured:
           name: Demo
           link: "https://chicago.shinyapps.io/CoronaTrackApp"
@@ -340,7 +340,7 @@ params:
 
       - title: Portfolio Analytics
         content: A web application built to provide actionable insights to retail investors, and help them make informed decisions about their portfolios.
-        image: /images/projects/converter.jpg
+        image: /images/projects/profile2.jpg
         featured:
           name: Demo
           link: https://chicago.shinyapps.io/testdboard
