@@ -146,7 +146,7 @@ params:
           url: https://github.com/vinceyordanov
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/vinceyordanov
-        - icon: vinceyordanov/vyordanov.github.io/static/fontawesome-5/svgs/regular/envelope.svg
+        - icon: fab fa-gmail
           url: "mailto:vinceyordanov@gmail.com"
   
   # Achievements
