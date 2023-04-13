@@ -284,6 +284,11 @@ header .navbar.animate {
     padding-top: 0rem;
 }
 
+#experience .py-2 {
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+}
+
 #experience * {
     background-color: var(--background-color) !important;
 }
@@ -435,6 +440,11 @@ header .navbar.animate {
     padding-top: 0rem;
 }
 
+#education .py-2 {
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+}
+
 #education * {
     background-color: transparent !important;
     
@@ -562,6 +572,8 @@ header .navbar.animate {
     opacity: 0.7;
 }
 
+
+
 /* achievements */
 
 #achievements a {
@@ -573,6 +585,11 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
     padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+#achievements .py-2 {
+    padding-top: 4rem;
     padding-bottom: 0rem;
 }
 
