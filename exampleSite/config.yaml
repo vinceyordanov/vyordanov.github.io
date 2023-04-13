@@ -146,6 +146,8 @@ params:
           url: https://github.com/vinceyordanov
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/vinceyordanov
+        - icon: fab fa-envelope
+          url: "mailto:vinceyordanov@gmail.com"
   
   # Achievements
   achievements:
@@ -367,7 +369,7 @@ params:
 
   #Contact
   contact:
-    enable: true
+    enable: false
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     email: vinceyordanov@gmail.com
@@ -386,11 +388,9 @@ params:
       enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/vinceyordanov
+      linkedin: https://linkedin.com/in/vinceyordanov
+
 
   # List pages like blogs and posts
   listPages:

@@ -281,7 +281,7 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
     opacity: 0.9;
-    padding-top: 6rem;
+    padding-top: 0rem;
 }
 
 #experience * {
@@ -334,7 +334,6 @@ header .navbar.animate {
     color: var(--primary-color) !important;
     font-family: "Roboto", sans-serif;
     border-bottom: 2px solid var(--primary-color); 
-    opacity: 0.8;
     background-color: var(--background-color) !important;
 }
 
@@ -433,7 +432,7 @@ header .navbar.animate {
     font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
     opacity: 0.9;
-    padding-top: 4rem;
+    padding-top: 0rem;
 }
 
 #education * {
@@ -477,10 +476,9 @@ header .navbar.animate {
 }
 
 #education .nav-item .nav-link.active {
+    color: var(--primary-color) !important;
     font-family: "Roboto", sans-serif;
-    color: var(--text-color) !important;
     border-bottom: 2px solid var(--primary-color); 
-    opacity: 0.8;
 }
 
 #education .nav-item .nav-link.active:hover { 
@@ -574,7 +572,7 @@ header .navbar.animate {
 #achievements h3 {
     font-family: "Roboto", sans-serif;
     color: var(--text-secondary-color) !important;
-    padding-top: 6rem;
+    padding-top: 0rem;
     padding-bottom: 0rem;
 }
 
@@ -594,17 +592,17 @@ header .navbar.animate {
 
 #achievements .card h5 {
     font-family: "Roboto", sans-serif;
-    color: #007bff !important;
+    color: var(--text-color) !important;
     opacity: 0.8;
 
 }
 
 #achievements .card:hover {
-    border: 0px solid #fff;
+    /*border: 0px solid #fff;*/
     /*transition: .3s;*/
 }
 #achievements .card:focus {
-    border: 0px solid #fff;
+    /*border: 0px solid #fff;*/
     /*transition: .3s;*/
 }
 
