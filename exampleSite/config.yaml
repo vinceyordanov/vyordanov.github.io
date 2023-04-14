@@ -338,7 +338,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/vinceyordanov
 
-      - title: Portfolio Analytics
+      - title: Stock Analytics
         content: A web application built to provide actionable insights to retail investors, and help them make informed decisions about their portfolios.
         image: /images/projects/profile2.png
         featured:
@@ -351,6 +351,20 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/vinceyordanov
+            
+     - title: Professional Portfolio (This website)
+      content: See how I transformed a Hugo bootstrap template using CSS, HTML, JavaScript in combination with Netlify in order to build this website and showcase my portfolio.
+      image: /images/projects/profile1.png
+      featured:
+        name: Demo
+        link: https://vinceyordanov.netlify.app
+      # badges:
+      #   - "R"
+      #   - "JavaScript"
+      #   - "ShinyApps"
+      links:
+        - icon: fab fa-github
+          url: https://github.com/vinceyordanov/vyordanov.github.io
 
       # - title: Chicago Crime Statistics
       #   content: A dashboard designed to track and provide crime forecasts for the city of Chicago in real-time.
