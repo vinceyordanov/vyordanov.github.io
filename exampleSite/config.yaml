@@ -352,7 +352,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/vinceyordanov
             
-        - title: Professional Portfolio
+      - title: Professional Portfolio
         content: See how I transformed a Hugo bootstrap template using CSS, HTML, JavaScript in combination with Netlify in order to build this website and showcase my portfolio.
         image: /images/projects/profile1.png
         featured:
