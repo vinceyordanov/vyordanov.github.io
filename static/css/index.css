@@ -100,7 +100,7 @@ header .navbar.animate {
 }
 
 #hero h2 {
-    font-size: 32px;
+    font-size: 28px;
     color: var(--text-secondary-color) !important;
     font-family: "Roboto", sans-serif;
     opacity: 0.9;
@@ -108,6 +108,7 @@ header .navbar.animate {
 }
 
 #hero h3 {
+    margin-top: -5px;
     padding-top: 0rem;
     font-size: 36px;
     color: var(--primary-color) !important; 
