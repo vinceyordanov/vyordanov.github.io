@@ -136,7 +136,8 @@ params:
     button:
       enable: true
       name: "CV"
-      url: "https://online.flippingbook.com/view/11333224/"
+      url: "https://vinceyordanov.tiiny.site/"
+      #url: "https://online.flippingbook.com/view/11333224/"
       #url: "https://easyupload.io/pgxp4y"
       download: false
       newPage: true
@@ -324,19 +325,19 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hospital ICU Overcapacity Risk
-        content: A web application designed to help hospitals have real-time risk assessment of ICU bed shortages during Covid-19 patient spikes.
+      - title: Containerized ML pipeline
+        content: A template framework which automates the containerization & deployment of a locally trained ML model to Googles CloudRun.
         image: /images/projects/profile3.png
         featured:
-          name: Demo
-          link: "https://chicago.shinyapps.io/CoronaTrackApp"
+          name: Demo (GitHub)
+          link: "https://github.com/vinceyordanov/vmy_ml"
         # badges:
         #   - "R"
         #   - "JavaScript"
         #   - "ShinyApps"
         links:
           - icon: fab fa-github
-            url: https://github.com/vinceyordanov
+            url: https://github.com/vinceyordanov/vmy_ml
 
       - title: IntellInvest Analytics
         content: A web application built to provide actionable insights to retail investors, and help them make informed decisions about their portfolios.
@@ -352,12 +353,12 @@ params:
           - icon: fab fa-github
             url: https://github.com/vinceyordanov
             
-      - title: Professional Portfolio
-        content: See how I transformed a Hugo bootstrap template using CSS, HTML, JavaScript in combination with Netlify in order to build this website and showcase my portfolio.
+      - title: Chicago ShotSpotter ETL pipeline
+        content: See how I deployed a containerized R application along with scheduled SQL modules to facilitate batch processing of Chicago ShotSpotter data, with full CI/CD functionality.
         image: /images/projects/profile1.png
         featured:
-          name: Demo
-          link: https://vinceyordanov.netlify.app
+          name: Demo (GitHub)
+          link: https://github.com/vinceyordanov/vmy-etl
         # badges:
         #   - "R"
         #   - "JavaScript"
