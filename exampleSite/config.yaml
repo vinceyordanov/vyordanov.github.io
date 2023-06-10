@@ -358,14 +358,14 @@ params:
         image: /images/projects/profile1.png
         featured:
           name: Demo (GitHub)
-          link: https://github.com/vinceyordanov/vmy-etl
+          link: https://github.com/vinceyordanov/vmy-etl-2
         # badges:
         #   - "R"
         #   - "JavaScript"
         #   - "ShinyApps"
         links:
           - icon: fab fa-github
-            url: "https://github.com/vinceyordanov/vyordanov.github.io"
+            url: "https://github.com/vinceyordanov/vmy-etl-2"
             
     
 
